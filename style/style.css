@@ -1,0 +1,22 @@
+/* Stylesheet for Mobile App */
+
+/* Reset html, body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, nav, header, footer*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Universal Style */
+body {
+    background-color: slategray;
+}
+
+#container {
+    width: 1200px;
+    height: 800px;
+    background-color: aqua;
+}
+
+ul {
+    font-family: 'Merienda', cursive;
+}
