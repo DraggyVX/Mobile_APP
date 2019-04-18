@@ -13,6 +13,7 @@ body {
 
 #container {
     background-color: aqua;
+    font-size: 1.3rem;
 }
 
 ul {
@@ -20,6 +21,7 @@ ul {
 }
 
 header {
+    text-align: center;
     padding 25px;
     background-color: aliceblue;
 }
