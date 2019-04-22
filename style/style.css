@@ -33,20 +33,31 @@ header h1 {
 }
 
 nav {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     background-color: lightblue;
 }
+
 nav ul {
-    text-align: center;
+    text-align: left;
 }
+
 nav ul li {
     display: inline-block;
-    padding: 5px 10px;
+    padding: 5px 8px;
     list-style: none;
+    border-right: 1px solid aqua;
+}
+
+nav ul li:last-child {
+    border-right: none;
 }
 
 .keepopen {
     clear: both;
+}
+
+#about {
+    float: right;
 }
