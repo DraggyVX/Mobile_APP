@@ -37,6 +37,10 @@ header h1 {
     font-size: 3rem;
 }
 
+.dragonImg {
+    width: 150px;
+}
+
 /* Styles for the nav bar */ 
 nav {
     position: fixed;
