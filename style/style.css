@@ -9,6 +9,9 @@
 /* Universal Style */
 body {
     background-color: slategray;
+    background-size: cover;
+    z-index: 1;
+    
 }
 
 #container {
@@ -18,13 +21,12 @@ body {
     text-align: center;
 }
 
-ul {
-    font-family: 'Merienda', cursive;
+header {
+    background-color: lightblue;
 }
 
-header {
-    padding 25px;
-    background-color: lightblue;
+ul {
+    font-family: 'Merienda', cursive;
 }
 
 h2 {
@@ -35,15 +37,17 @@ header h1 {
     color: darkblue;
     font-family: 'Parisienne', cursive;
     font-size: 3rem;
+    
 }
 
-.dragonImg {
-    width: 150px;
+#content {
+    background-color: transparent;
+    opacity: .1;
 }
 
 /* Styles for the nav bar */ 
 nav {
-    position: fixed;
+    display: inline-block;
     width: 100%;
     background-color: lightblue;
     color: blue;
@@ -95,10 +99,15 @@ div .keepOpen {
     
 }
 
+#about_button {
+    padding: 10px;
+    background: lightblue;
+}
+
 /* Styles for the icon bar at the bottom */
 .icon-bar {
-    position:absolute;
-    bottom:0;
+    position: fixed;
+    bottom: 0;
     width: 100%;
     background-color: #555;
     overflow: auto;
