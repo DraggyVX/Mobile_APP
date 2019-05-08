@@ -11,6 +11,9 @@ body {
     background-color: slategray;
     background-size: cover;
     z-index: 1;
+    background-image: url("../img/cool_background.jpg");
+    background-size: cover;
+    background-repeat: repeat-y;
     
 }
 
@@ -42,14 +45,16 @@ header h1 {
 
 #content {
     background-color: transparent;
-    opacity: .1;
+    z-index: -1;
+    position: absolute;
+    color: lightgray;
 }
 
 /* Styles for the nav bar */ 
 nav {
     display: inline-block;
     width: 100%;
-    background-color: lightblue;
+    background-color: #9bd6fa;
     color: blue;
     font-size: 1.1rem;
 }
