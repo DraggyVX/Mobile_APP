@@ -48,6 +48,7 @@ header h1 {
     z-index: -1;
     position: absolute;
     color: lightgray;
+    margin-top: 20px;
 }
 
 div#product_grp {
@@ -79,9 +80,28 @@ figure.product figcaption {
     font-size: 24px;
 }
 
+@media screen and (max-width: 1200px) {
+    
+	figure.product {
+		float:none;
+		margin:10px auto;
+		min-width:50%;
+		max-width:100%;
+		background-color: cadetblue;
+		border-radius:5%;
+	}
+
+	 legend, span, input, textarea {
+		display:block;
+		margin:auto;
+		text-align:center;
+		font-family:sans-serif;
+		color:blue;
+    }
+}
+
 /* Styles for the nav bar */ 
 nav {
-    position: fixed;
     display: block;
     width: 100%;
     background-color: #9bd6fa;
